@@ -1,0 +1,1257 @@
+{
+    "Pice":[
+       {
+           "Pivo":[
+            {
+             "naziv":"Tuborg",
+             "kolicina":"0.33",
+             "cena":"220"
+           },
+           {
+            "naziv":"Kronenbourg",
+            "kolicina":"0.33",
+            "cena":"240"
+          },
+          {
+            "naziv":"Budweiser",
+            "kolicina":"0.33",
+            "cena":"240"
+          },
+          {
+            "naziv":"Budweiser tamno",
+            "kolicina":"0.33",
+            "cena":"240"
+          },
+          {
+            "naziv":"Grimbergen",
+            "kolicina":"0.33",
+            "cena":"270"
+          },
+          {
+            "naziv":"Erdinger",
+            "kolicina":"0.33",
+            "cena":"360"
+          },
+          {
+            "naziv":"San Miguel",
+            "kolicina":"0.33",
+            "cena":"360"
+          }],
+          "Točeno Pivo":[{
+            "naziv":"Carlsberg",
+            "kolicina":"0.33",
+            "cena":"180"
+          },
+          {
+            "naziv":"Carlsberg",
+            "kolicina":"0.5",
+            "cena":"260"
+          },
+          {
+            "naziv":"Lav premium",
+            "kolicina":"0.33",
+            "cena":"160"
+          },
+          {
+            "naziv":"Lav premium",
+            "kolicina":"0.5",
+            "cena":"220"
+          },
+          {
+            "naziv":"Budweiser",
+            "kolicina":"0.5",
+            "cena":"260"
+          },
+          {
+            "naziv":"Budweiser",
+            "kolicina":"0.3",
+            "cena":"180"
+          }],
+          "Kokteli":[{
+              "naziv":"Hugo",
+              "sastav":"Prosecco, Sirup od zove",
+              "cena":"420."
+          },
+          {
+            "naziv":"Bellini",
+            "sastav":"Prosecco, Pire od breskve",
+            "cena":"420"
+        },
+        {
+            "naziv":"Campari",
+            "sastav":"Tonic Campari, Tonic ",
+            "cena":"420."
+        },
+        {
+            "naziv":"Aperol Spritz",
+            "sastav":"Aperol, Prosecco, Soda",
+            "cena":"480"
+        },
+        {
+            "naziv":"Angelo Azzuro",
+            "sastav":"Triple sec, Blue curacao",
+            "cena":"480"
+        },
+        {
+            "naziv":"Americano Martini",
+            "sastav":"Campari, rosso , soda",
+            "cena":"450"
+        },
+        {
+            "naziv":"Garibaldi",
+            "sastav":"Campari,ceđena pomorandža",
+            "cena":"450"
+        },
+        {
+            "naziv":"Bicicletta",
+            "sastav":"Vermentino, Campari, soda",
+            "cena":"480"
+        },
+        {
+            "naziv":"Negroni",
+            "sastav":"Martini Roso, Campari Gin",
+            "cena":"480"
+        },
+        {
+            "naziv":"God Father",
+            "sastav":"Amaretto di Saronno, Johnie Walker",
+            "cena":"480"
+        },
+        {
+            "naziv":"Kir Royale",
+            "sastav":"Creme de cassis, Prosecco",
+            "cena":"480"
+        },
+        {
+            "naziv":"Amalfito",
+            "sastav":"Beli rum, Limoncello, Angustura bitter, sok od lajma, soda",
+            "cena":"550"
+        }
+    ],
+    "Rum Tekila":[{
+        "naziv":"Havana",
+        "kolicina":"0.03",
+        "cena": "240"
+    },
+    {
+        "naziv":"Bacardi",
+        "kolicina":"0.03",
+        "cena": "280"
+    },
+    {
+        "naziv":"Jose Cuervo",
+        "kolicina":"0.03",
+        "cena": "280"
+    }],
+    "Whiskey and Cognac":[{
+        "naziv":"Johnie Walker red",
+        "kolicina":"0.03",
+        "cena": "240"
+    },
+    {
+        "naziv":"Johnie Walker black",
+        "kolicina":"0.03",
+        "cena": "390"
+    },
+    {
+        "naziv":"Ballantine `s 12 y.o",
+        "kolicina":"0.03",
+        "cena": "390"
+    },
+    {
+        "naziv":"Jack Daniels",
+        "kolicina":"0.03",
+        "cena": "320"
+    },
+    {
+        "naziv":"Jameson",
+        "kolicina":"0.03",
+        "cena": "320"
+    },
+    {
+        "naziv":"Chivas",
+        "kolicina":"0.03",
+        "cena": "390"
+    },
+    {
+        "naziv":"Hennessy",
+        "kolicina":"0.03",
+        "cena": "390"
+    }],
+    "Vino kuće":[{
+        "naziv":"Vino kuće crveno",
+        "kolicina":"0.15",
+        "cena": "280"
+    },
+{
+    "naziv":"Vino kuće belo",
+    "kolicina":"0.15",
+    "cena": "280"
+}],
+"Domaća pića i likeri":[
+    {
+    "naziv":"Kajsijevača",
+    "kolicina":"0.03",
+    "cena": "210"
+    },
+     {
+    "naziv":"Dunjevača",
+    "kolicina":"0.03",
+    "cena": "210"
+    },
+    {
+    "naziv":"Viljamovka",
+    "kolicina":"0.03",
+    "cena": "210"
+    },
+     {
+    "naziv":"Šljiva barik",
+    "kolicina":"0.03",
+    "cena": "210"
+    },
+     {
+    "naziv":"Gorki list",
+    "kolicina":"0.03",
+    "cena": "170"
+    }
+],
+"Strana pića i likeri": [{
+    "naziv":"Absolut",
+    "kolicina":"0.03",
+    "cena": "240" 
+},
+{
+    "naziv":"Beefeater",
+    "kolicina":"0.03",
+    "cena": "240" 
+},
+{
+    "naziv":"Gin Hendrix",
+    "kolicina":"0.03",
+    "cena": "390" 
+},
+{
+    "naziv":"Poli grappa Sarpa",
+    "kolicina":"0.03",
+    "cena": "390" 
+},
+{
+    "naziv":"Amaretto di Saronno",
+    "kolicina":"0.05",
+    "cena": "280" 
+},
+{
+    "naziv":"Campari",
+    "kolicina":"0.05",
+    "cena": "280" 
+},
+{
+    "naziv":"Amaro montenegro",
+    "kolicina":"0.05",
+    "cena": "280" 
+},
+{
+    "naziv":"Jagermeister",
+    "kolicina":"0.05",
+    "cena": "320" 
+},
+{
+    "naziv":"Aperol",
+    "kolicina":"0.05",
+    "cena": "280" 
+},
+{
+    "naziv":"Martini bianco",
+    "kolicina":"0.05",
+    "cena": "280" 
+},
+{
+    "naziv":"Martini rosso",
+    "kolicina":"0.05",
+    "cena": "280" 
+},
+{
+    "naziv":"Baileys",
+    "kolicina":"0.05",
+    "cena": "320" 
+},
+{
+    "naziv":"Limoncello",
+    "kolicina":"0.05",
+    "cena": "220" 
+},
+{
+    "naziv":"Somersby",
+    "kolicina":"0.33",
+    "cena": "290" 
+},
+{
+    "naziv":"Ramazzotti",
+    "kolicina":"0.33",
+    "cena": "280" 
+}],
+ "Bezalkoholna pića": [{
+    "naziv":"Gusti sokovi",
+    "kolicina":"0.2",
+    "cena": "210" 
+ },
+ {
+    "naziv":"Coca cola / zero",
+    "kolicina":"0.25",
+    "cena": "210" 
+ },
+ {
+    "naziv":"Fanta",
+    "kolicina":"0.25",
+    "cena": "210" 
+ },
+ {
+    "naziv":"Sprite",
+    "kolicina":"0.25",
+    "cena": "210" 
+ },
+ {
+    "naziv":"Bitter Lemon",
+    "kolicina":"0.25",
+    "cena": "210" 
+ },
+ {
+    "naziv":"Tonic",
+    "kolicina":"0.25",
+    "cena": "210" 
+ },
+ {
+    "naziv":"Fuzztea",
+    "kolicina":"0.25",
+    "cena": "220" 
+ },
+ {
+    "naziv":"Orangina",
+    "kolicina":"0.25",
+    "cena": "220" 
+ },
+ {
+    "naziv":"Red Bull",
+    "kolicina":"0.25",
+    "cena": "420" 
+ },
+ {
+    "naziv":"Guarana",
+    "kolicina":"0.25",
+    "cena": "280" 
+ }],
+ "Sveže ceđeni sokovi":[{
+    "naziv":"Limunada",
+    "kolicina":"0.3",
+    "cena": "190" 
+ },
+ {
+    "naziv":"Narandža",
+    "kolicina":"0.3",
+    "cena": "290" 
+ },
+ {
+    "naziv":"Grejpfrut",
+    "kolicina":"0.3",
+    "cena": "290" 
+ },
+ {
+    "naziv":"Citrus mix",
+    "kolicina":"0.3",
+    "cena": "320" 
+ }],
+ "Voda":[{
+    "naziv":"Voda Aqua Viva",
+    "kolicina":"0.25",
+    "cena": "140" 
+ },
+ {
+    "naziv":"Voda Aqua Viva",
+    "kolicina":"0.75",
+    "cena": "280" 
+ },
+ {
+    "naziv":"Voda Knjaz Miloš",
+    "kolicina":"0.25",
+    "cena": "140" 
+ },
+ {
+    "naziv":"Voda Knjaz Miloš",
+    "kolicina":"0.75",
+    "cena": "280" 
+ },
+ {
+    "naziv":"Voda Acqua Panna",
+    "kolicina":"0.25",
+    "cena": "240" 
+ },
+ {
+    "naziv":"Voda Acqua Panna",
+    "kolicina":"0.75",
+    "cena": "420" 
+ },
+ {
+    "naziv":"Voda San Pellegrino",
+    "kolicina":"0.25",
+    "cena": "240" 
+ },
+ {
+    "naziv":"Voda San Pellegrino",
+    "kolicina":"0.75",
+    "cena": "420" 
+ }],
+ "Kafe i topli napici":[{
+    "naziv":"Crna kafa",
+    "kolicina":"",
+    "cena": "140"
+ },
+ {
+    "naziv":"Espresso",
+    "kolicina":"",
+    "cena": "145"
+ },
+ {
+    "naziv":"Espresso sa mlekom",
+    "kolicina":"",
+    "cena": "170"
+ },
+ {
+    "naziv":"Dupli espresso",
+    "kolicina":"",
+    "cena": "220"
+ },
+ {
+    "naziv":"Espresso macchiato",
+    "kolicina":"",
+    "cena": "170"
+ },
+ {
+    "naziv":"Espresso sa šlagom",
+    "kolicina":"",
+    "cena": "190"
+ },
+ {
+    "naziv":"Kapućino",
+    "kolicina":"",
+    "cena": "180"
+ },
+ {
+    "naziv":"Cafe latte",
+    "kolicina":"",
+    "cena": "220"
+ },
+ {
+    "naziv":"Nescafe",
+    "kolicina":"",
+    "cena": "190"
+ },
+ {
+    "naziv":"Nescafe sa šlagom",
+    "kolicina":"",
+    "cena": "220"
+ },
+ {
+    "naziv":"Topla čokolada",
+    "kolicina":"",
+    "cena": "220"
+ },
+ {
+    "naziv":"Topla čokolada sa šlagom",
+    "kolicina":"",
+    "cena": "240"
+ },
+ {
+    "naziv":"Čaj Althaus",
+    "kolicina":"",
+    "cena": "210"
+ },
+ {
+    "naziv":"Kuvano vino",
+    "kolicina":"",
+    "cena": "280"
+ },
+ {
+    "naziv":"Kuvana rakija",
+    "kolicina":"",
+    "cena": "260"
+ }]
+
+        }
+    ],
+    "Hrana": [{
+        "Doručak sa kafom":[
+        {
+            "naziv":"Wrap sa pohovanom piletinom",
+            "sastav":"tortilja,zel.salata,poh.piletina,dim.kačkavalj",
+            "cena":"390",
+            "img":"slikeJela/Wrap sa pohovanom piletinom.jpg"
+        },
+        {
+            "naziv":"Engleski doručak",
+            "sastav":"pržena jaja,kobasica,pečurke,paradajz",
+            "cena":"390",
+            "img":"slikeJela/Engleski dorucak.jpg"
+        },
+        {
+            "naziv":"Omlet sa šunkom ili pančetom",
+            "sastav":"3 jaja,zel.salata,paradajz",
+            "cena":"390",
+            "img":"slikeJela/omlet.jpg"
+        },
+        {
+            "naziv":"Omlet sa povrćem u tortilji",
+            "sastav":"3 jaja,crni luk,paprika,tikvice",
+            "cena":"390",
+            "img":"slikeJela/Omlet sa povrćem u tortilji.jpg"
+        },
+        {
+            "naziv":"Prženice",
+            "sastav":"tost hleb,panir masa",
+            "cena":"390",
+            "img":"slikeJela/przenice.jpg"
+        },
+        {
+            "naziv":"Sendvič sa pršutom",
+            "sastav":"",
+            "cena":"390",
+            "img":"slikeJela/Sendvic sa prsutom.jpg"
+        }
+    
+    ],
+        "Starteri":[
+            {
+                "naziv":"Bruscheta al pomodoro",
+                "sastav":"baget,paradajz,masl.ulje,bosiljak,beli luk",
+                "cena":"320",
+                "img":"slikeJela/brusketi pomodoro.jpg"
+            },
+            {
+                "naziv":"Carpacio di manzo con tartufo",
+                "sastav":"juneći biftek,rukola,čeri,parmezan,ulje od tartufa,začini",
+                "cena":"1260",
+                "img":"slikeJela/karpaco.jpg"
+            },
+            {
+                "naziv":"Caprese",
+                "sastav":"paradajz,mozzarella,bosiljak,so,biber,masl.ulje",
+                "cena":"570",
+                "img":"slikeJela/Caprese.jpg"
+            },
+            {
+                "naziv":"Italijanska ploča",
+                "sastav":"",
+                "cena":"1200",
+                "img":"slikeJela/Italijanska plata.jpg"
+            },
+            {
+                "naziv":"Burata",
+                "sastav":"buratta,čeri paradajz,začini,maslinovo ulje",
+                "cena":"950",
+                "img":"slikeJela/burata.jpg"
+            }
+        ],
+        "Obrok salate":[
+            {
+                "naziv":"Cezar salata",
+                "sastav":"miks zelenih salata,piletina,krutoni,paradajz,(dressing),pančeta,parmezan, peršun dresing",
+                "cena":"720",
+                "img":"slikeJela/Cezar salata.jpg"
+            },
+            {
+                "naziv":"Biftek salata",
+                "sastav":"miks zelenih salata,biftek,senf med dressing,krastavac,parmezan,čeri paradajz",
+                "cena":"890",
+                "img":"slikeJela/Biftek salata.jpg"
+            },
+            {
+                "naziv":"Nica salata",
+                "sastav":"miks zelenih salata,tunjevina,paprika,kukuruz,maslinovo ulje,začini",
+                "cena":"680",
+                "img":"slikeJela/Nica salata.jpg"
+            },
+            {
+                "naziv":"Losos salata",
+                "sastav":"miks zelenih salata,masline,losos,rukola,masl.ulje,šargarepa,so",
+                "cena":"920",
+                "img":"slikeJela/Losos salata.jpg"
+            }
+        ],
+        "Supe i potaži":[
+            {
+                "naziv":"Minestrone",
+                "sastav":"mix sezonskog povrća",
+                "cena":"280",
+                "img":"slikeJela/slikam.jpg"
+            },
+            {
+                "naziv":"Paradajz čorba",
+                "sastav":"",
+                "cena":"350",
+                "img":"slikeJela/paradajzcorba.jpg"
+            },
+            {
+                "naziv":"Supa Dana",
+                "sastav":"",
+                "cena":"280",
+                "img":"slikeJela/Potaž dana.jpg"
+            }
+        ],
+        "Rižoto":[
+            {
+                "naziv":"Rižoto nero",
+                "sastav":"lignje,pirinač,crni luk,belo vino,mastilo od sipe,rukola,čeri,začini",
+                "cena":"990",
+                "img":"slikeJela/Rižoto Nero.jpg"
+            },
+            {
+                "naziv":"Rižoto sa povrćem",
+                "sastav":"pirinač,maslinovo ulje,crni luk,tikvice,paprika,pečurke,belo vino,začini",
+                "cena":"750",
+                "img":"slikeJela/rizotosapovrcem.jpg"
+            },
+            {
+                "naziv":"Rižoto sa gamborima",
+                "sastav":"pirinač,crni luk,gambori,masline,ulje,belo vino,začini",
+                "cena":"1280",
+                "img":"slikeJela/Rizoto sa gamborima.jpg"
+            }
+        ],
+        "Riba i morski plodovi":[
+            {
+                "naziv":"Pastrmka sa dalmatinskom garniturom",
+                "sastav":"pastrmka,krompir,blitva,beli luk,belo vino,začini",
+                "cena":"810",
+                "img":"slikeJela/Pastremka sa dalmatinskom garniturom.jpg"
+            },
+            {
+                "naziv":"Lignje na žaru",
+                "sastav":"lignje,krompir,blitva,beli luk,belo vino,začini",
+                "cena":"1250",
+                "img":"slikeJela/Lignje na žaru.jpg"
+            },
+            {
+                "naziv":"Losos na žaru",
+                "sastav":"losos,krompir,maslinovo ulje,začini",
+                "cena":"1620",
+                "img":"slikeJela/losos.jpg"
+            }
+        ],
+        "Prilozi uz jelo":[
+            {
+                "naziv":"Zapečeni krompir",
+                "sastav":"",
+                "cena":"350",
+                "img":"slikeJela/krompir.jpg"
+            },
+            {
+                "naziv":"Grilovano povrće",
+                "sastav":"",
+                "cena":"370",
+                "img":"slikeJela/grilovanopovrce.jpg"
+            },
+            {
+                "naziv":"Pomfrit",
+                "sastav":"",
+                "cena":"230",
+                "img":"slikeJela/pomfrit.jpg"
+            }
+        ],
+        "Pizza":[
+            {
+                "naziv":"Pizza Focaccia",
+                "sastav":"ruzmarin,morska so,beli luk,maslinovo ulje",
+                "cena":"280",
+                "img":"slikeJela/fokaca.jpg"
+
+            },
+            {
+                "naziv":"Pizza Margherita",
+                "sastav":"pelat,mocarela,svež bosiljak,maslinovo ulje",
+                "cena":"620",
+                "img":"slikeJela/Pizza Margherita.jpg"
+            },
+            {
+                "naziv":"Pizza Margherita con Bufala",
+                "sastav":"pelat,mocarela Bufala,svež bosiljak,maslinovo ulje,parmezan",
+                "cena":"930",
+                "img":"slikeJela/Pizza Margherita.jpg"
+            },
+            {
+                "naziv":"Pizza Don Giovani",
+                "sastav":"mocarela,paradajz,bosiljak,beli luk,origano",
+                "cena":"760",
+                "img":"slikeJela/dondjovani.jpg"
+            },
+            {
+                "naziv":"Pizza Capricosa",
+                "sastav":"pelat,mocarela,Cotto šunka,šampinjoni,artičoke,masline kalamata",
+                "cena":"790",
+                "img":"slikeJela/kapricosa.jpg"
+            },
+            {
+                "naziv":"Pizza Diavola",
+                "sastav":"pelat,mocarela,pikantna salama,sveža paprika",
+                "cena":"840",
+                "img":"slikeJela/djavolja.jpg"
+            },
+            {
+                "naziv":"Pizza Šumatovac",
+                "sastav":"pelat,mocarela,panceta,vrganj,jaje,parmezan",
+                "cena":"870",
+                "img":"slikeJela/Pizza sumatovac.jpg"
+            },
+            {
+                "naziv":"Pizza mix Fungi",
+                "sastav":"pelat,mocarela,šampinjoni,bukovača,vrganj",
+                "cena":"790",
+                "img":"slikeJela/fungi.jpg"
+            },
+            {
+                "naziv":"Pizza Quatro Formagi",
+                "sastav":"mocarela,dimljeni kačkavalj,gorgonzola,parmezan,svež bosiljak",
+                "cena":"890",
+                "img":"slikeJela/4sira.jpg"
+            },
+            {
+                "naziv":"Pizza Vegeteriana",
+                "sastav":"pelat,šampinjoni,crveni luk,artičoke,paprika,tikvice,patlidžan",
+                "cena":"720",
+                "img":"slikeJela/vegeteriana.jpg"
+            },
+            {
+                "naziv":"Pizza Napoli",
+                "sastav":"pelat,mocarela,ringlice,kapar,svež bosiljak",
+                "cena":"780",
+                "img":"slikeJela/napoli.jpg"
+            },
+            {
+                "naziv":"Pizza Tonno",
+                "sastav":"pelat,mocarela,tunjevina,crveni luk,origano,masline kalamata",
+                "cena":"860",
+                "img":"slikeJela/slikaJela.jpg"
+            },
+            {
+                "naziv":"Pizza Prosciutto",
+                "sastav":"pelat,mocarela,pršuta Crudo,rukola,čeri,parmezan",
+                "cena":"980",
+                "img":"slikeJela/Pizza Prosciutto.jpg"
+            },
+            {
+                "naziv":"Pizza Calabrese",
+                "sastav":"pelat,mocarela,nduja,masline,beli luk,maslinovo ulje,origano",
+                "cena":"960",
+                "img":"slikeJela/kalabrese.jpg"
+            },
+            {
+                "naziv":"Pizza Caprino Pomodoro",
+                "sastav":"pančeta,čeri,koziji sir,rukola,maslinovo ulje, majčina dušica, beli luk",
+                "cena":"920",
+                "img":"slikeJela/Pizza kaprino pomodoro.jpg"
+            },
+            {
+                "naziv":"Pizza Burata",
+                "sastav":"buratta,pelat,bosiljak,maslinovo ulje",
+                "cena":"1090",
+                "img":"slikeJela/Pizza Marghertita con Bufala.jpg"
+            }
+        ],
+        "Paste":[
+            {
+                "naziv":"Špagete Carbonara",
+                "sastav":"pančeta,jaja,parmezan,beli luk,belo vino",
+                "cena":"680",
+                "img":"slikeJela/karbonara.jpg"
+            },
+            {
+                "naziv":"Špagete Bolognese",
+                "sastav":"Mleveno meso,pelat,parmezan,začini",
+                "cena":"680",
+                "img":"slikeJela/bolonjez.jpg"
+            },
+            {
+                "naziv":"Špagete Aglio e olio e peperoncino",
+                "sastav":"maslinovo ulje,beli luk,ljuta papričica,so,peršun",
+                "cena":"560",
+                "img":"slikeJela/Spagete Aglio e olie e peperoncino.jpg"
+            },
+            {
+                "naziv":"Pene Arabiatta",
+                "sastav":"paradajz,peperoncino,začini,kapar,beli luk",
+                "cena":"630",
+                "img":"slikeJela/arabijata.jpg"
+            },
+            {
+                "naziv":"Pene Amatriciana",
+                "sastav":"pelat,pančeta,beli luk,začini,pecorino",
+                "cena":"680",
+                "img":"slikeJela/amatricana.jpg"
+            },
+            {
+                "naziv":"Penne sa lososom",
+                "sastav":"losos,maslinovo ulje,beli luk,čeri paradajz,peršun,začini,neutralna pavlaka,belo vino",
+                "cena":"890",
+                "img":"slikeJela/penelosos.jpg"
+            },
+            {
+                "naziv":"Taljatele sa piletinom i pestom",
+                "sastav":"piletina,pesto sos,neutralna pavlaka,bosiljak",
+                "cena":"870",
+                "img":"slikeJela/Taljatele sa piletinom i pestom.jpg"
+            },
+            {
+                "naziv":"Taljatele sa pršutom i tikvicom",
+                "sastav":"pršuta,tikvice,beli luk,neutralna pavlaka,začini",
+                "cena":"870",
+                "img":"slikeJela/taljateleprsuta.jpg"
+            },
+            {
+                "naziv":"Taljatele biftekom",
+                "sastav":"biftek,čeri paradajz,beli luk,belo vino,neutralna pavlaka,začini",
+                "cena":"910",
+                "img":"slikeJela/biftekpasta.jpg"
+            },
+            {
+                "naziv":"Njoke u sosu od 4 vrste sira",
+                "sastav":"njoke,pavlaka,gorgonzola,parmezan,mozzarella,dimljeni kačkavalj,začini",
+                "cena":"690",
+                "img":"slikeJela/njoke4sira.jpg"
+            },
+            {
+                "naziv":"Njoke sa gamborima i vrgnjima",
+                "sastav":"njoke,gambori,vrgnji,ceri,maslinovo ulje,beli luk,začini,pavlaka,dimljeni kačkavalj",
+                "cena":"820",
+                "img":"slikeJela/njokegambori.jpg"
+            },
+            {
+                "naziv":"Lazanje iz peći",
+                "sastav":"mleveno meso,bešamel sos,kore.parmezan,sos",
+                "cena":"780",
+                "img":"slikeJela/lazanja.jpg"
+            }
+        ],
+        "Meso":[
+            {
+                "naziv":"Piletina sa grilovanim povrćem",
+                "sastav":"pileći file,tikvice,pečurke,plavi patlidzan,paprika,masl.ulje,začini",
+                "cena":"780",
+                "img":"slikeJela/Piletina sa grilovanim povrcem.jpg"
+            },
+            {
+                "naziv":"Piletina sa pršutom i mocarelom",
+                "sastav":"pileći file,pršuta,mocarela,neutralna pavlaka,začin,pomfrit",
+                "cena":"880",
+                "img":"slikeJela/Piletiina sa pršutom i mocarelom.jpg"
+            },
+            {
+                "naziv":"Biftek taljata na rukoli",
+                "sastav":"biftek,rukola,čeri,parmezan,začini",
+                "cena":"1550",
+                "img":"slikeJela/taljata.jpg"
+            },
+            {
+                "naziv":"Rolovani biftek šefa kuhinje",
+                "sastav":"biftek,rukola,pečurke,beli luk,pančeta,vrganj,krompir,začini",
+                "cena":"1850",
+                "img":"slikeJela/Biftek sefa kuhinje.jpg"
+            },
+            {
+                "naziv":"Stracceti na rukoli",
+                "sastav":"biftek,rukola,čeri paradajz,beli luk,belo vino,parmezan,začini",
+                "cena":"1280",
+                "img":"slikeJela/straceti.jpg"
+            },
+            {
+                "naziv":"Saltimbocca",
+                "sastav":"teleći but,pršuta,žalfija,m.ulje,krompir,čeri",
+                "cena":"1280",
+                "img":"slikeJela/Saltimboca.jpg"
+            },
+            {
+                "naziv":"Biftek na Žaru",
+                "sastav":"biftek,grilovano povrće",
+                "cena":"1550",
+                "img":"slikeJela/Biftek sa gril povrcem.jpg"
+            },
+            {
+                "naziv":"Pljeskavica na kajmaku",
+                "sastav":"juneće mleveno,zelena salata,kajmak,paradajz,pomfrit,domaći hleb",
+                "cena":"760",
+                "img":"slikeJela/pljeskavica.jpg"
+            },
+            {
+                "naziv":"Pileća Karadjordjeva",
+                "sastav":"pileći file,kajmak,panir masa,zelena salata,pomfrit,paradajz,tartar sos",
+                "cena":"750",
+                "img":"slikeJela/karadjordjeva.jpg"
+            },
+            {
+                "naziv":"Pileći štapići u susamu",
+                "sastav":"pileći file,panir masa,pomfrit,tartar sos,paradajz, susam",
+                "cena":"690",
+                "img":"slikeJela/pilecistapici.jpg"
+            }
+        ],
+        "Salate":[
+            {
+                "naziv":"Mešana salata",
+                "sastav":"miks zelenih salata,čeri paradajz,parmezan,masl.ulje,začini",
+                "cena":"390",
+                "img":"slikeJela/Mešana salata.jpg"
+            },
+            {
+                "naziv":"rukola & čeri paradajz",
+                "sastav":"rukola,čeri,maslinovo ulje,parmezan,začini",
+                "cena":"490",
+                "img":"slikeJela/rukolaceri.jpg"
+            },
+            {
+                "naziv":"Vitaminska salata",
+                "sastav":"kupus,šargarepa,kukuruz,jabuka,začini",
+                "cena":"280",
+                "img":"slikeJela/vitaminska.jpg"
+            },
+            {
+                "naziv":"Grčka salata",
+                "sastav":"paradajz,crni luk,masline,krastavac,paprika,feta sir,masl.ulje,origano",
+                "cena":"350",
+                "img":"slikeJela/grcka.jpg"
+            },
+            {
+                "naziv":"Kupus salata",
+                "sastav":"",
+                "cena":"190",
+                "img":"slikeJela/kupus.jpeg"
+            },
+            {
+                "naziv":"Paradajz sa sirom",
+                "sastav":"",
+                "cena":"280",
+                "img":"slikeJela/paradajzfeta.jpg"
+            }
+        ],
+        "Deserti":[
+            {
+                "naziv":"Cannoli",
+                "sastav":"",
+                "cena":"350",
+                "img":"slikeJela/canoli.jpg"
+            },
+            {
+                "naziv":"Alpski kolač",
+                "sastav":"",
+                "cena":"350",
+                "img":"slikeJela/Alpski kolac.jpg"
+            },
+            {
+                "naziv":"Čoko tart",
+                "sastav":"",
+                "cena":"350",
+                "img":"slikeJela/cokotart.jpg"
+            },
+            {
+                "naziv":"Nuterole",
+                "sastav":"6 malih kalcona punjenih nutelom i prelivenih jagodom",
+                "cena":"450",
+                "img":"slikeJela/nuterole.jpg"
+            },
+            {
+                "naziv":"Tiramisu",
+                "sastav":"",
+                "cena":"340",
+                "img":"slikeJela/Tiramisu.jpg"
+            }
+        ]
+    }],
+    "Vino":[{
+        "Belo Srbija":[
+            {
+                "naziv": "Lastar Tamjanika,Levac",
+                "kolicina": "0.75",
+                "cena": "2290"
+            },
+            {
+                "naziv": "Lastar Tamjanika,Levac",
+                "kolicina": "0.15",
+                "cena": "480"
+            },
+            {
+                "naziv": "Lastar Chardonnay,Levac",
+                "kolicina": "0.75",
+                "cena": "2400"
+            },
+            {
+                "naziv": "Lastar Chardonnay,Levac",
+                "kolicina": "0.15",
+                "cena": "500"
+            },
+            {
+                "naziv": "Zmajevac Tamjanika",
+                "kolicina": "0.75",
+                "cena": "1990"
+            },
+            {
+                "naziv": "Zmajevac Tamjanika",
+                "kolicina": "0.15",
+                "cena": "420"
+            }
+        ],
+        "Belo Italija":[
+            {
+                "naziv": "Vino kuće",
+                "kolicina": "0.5",
+                "cena": "740"
+            },
+            {
+                "naziv": "Vino kuće",
+                "kolicina": "0.15",
+                "cena": "280"
+            },
+            {
+                "naziv": "Vermentino cecchi LA MORA",
+                "kolicina": "0.75",
+                "cena": "2890"
+            },
+            {
+                "naziv": "Vermentino cecchi LA MORA",
+                "kolicina": "0.15",
+                "cena": "590"
+            },
+            {
+                "naziv": "Lugana Santa Cristina",
+                "kolicina": "0.75",
+                "cena": "4850"
+            },
+            {
+                "naziv": "Poem Malvaasia, Monte delle Vigne, Colli di Parma, D.O.C",
+                "kolicina": "0.75",
+                "cena": "3280"
+            },
+            {
+                "naziv": "Poem Malvaasia, Monte delle Vigne, Colli di Parma, D.O.C",
+                "kolicina": "0.15",
+                "cena": "690"
+            },
+            {
+                "naziv": "Callas Malvasia, Monte delle Vigine, Emilia, I.G.T",
+                "kolicina": "0.75",
+                "cena": "7800"
+            },
+            {
+                "naziv": "Gavi, La Scolca, Black Label, Piemonte, D.O.C.G",
+                "kolicina": "0.75",
+                "cena": "3890"
+            },
+            {
+                "naziv": "Gavi di Gavi, La Scolca, Black Label, Piemonte, D.O.C.G",
+                "kolicina": "0.75",
+                "cena": "4250"
+            },
+            {
+                "naziv": "Vina Esmeralda",
+                "kolicina": "0.75",
+                "cena": "1990"
+            },
+            {
+                "naziv": "Vina Esmeralda",
+                "kolicina": "0.15",
+                "cena": "420"
+            },
+            {
+                "naziv": "Collavini Pinto Grigio",
+                "kolicina": "0.75",
+                "cena": "2780"
+            },
+            {
+                "naziv": "Collavini Pinto Grigio",
+                "kolicina": "0.15",
+                "cena": "465"
+            },
+            {
+                "naziv": "Chardonnay, Bennati, Veneto, I.G.T",
+                "kolicina": "0.75",
+                "cena": "2890"
+            },
+            {
+                "naziv": "Chardonnay, Bennati, Veneto, I.G.T",
+                "kolicina": "0.15",
+                "cena": "590"
+            },
+            {
+                "naziv": "Pinot, Bennati, Veneto, I.G.T",
+                "kolicina": "0.75",
+                "cena": "2890"
+            },
+            {
+                "naziv": "Pinot, Bennati, Veneto, I.G.T",
+                "kolicina": "0.15",
+                "cena": "590"
+            },
+            {
+                "naziv": "BIO Tourelle de Tholomies",
+                "kolicina": "0.75",
+                "cena": "2590"
+            },
+            {
+                "naziv": "BIO Tourelle de Tholomies",
+                "kolicina": "0.15",
+                "cena": "435"
+            }
+        ],
+        "Belo Penušava":[
+            {
+                "naziv": "Prosseco",
+                "kolicina": "0.75",
+                "cena": "2290"
+            },
+            {
+                "naziv": "Prosseco",
+                "kolicina": "0.15",
+                "cena": "480"
+            },
+            {
+                "naziv": "Champagne Laurent Perrier Brut",
+                "kolicina": "0.75",
+                "cena": "6800"
+            }
+        ],
+        "Crveno Srbija":[
+            {
+                "naziv": "Zmajevac Prokupac",
+                "kolicina": "0.75",
+                "cena": "1990"
+            },
+            {
+                "naziv": "Zmajevac Prokupac",
+                "kolicina": "0.15",
+                "cena": "420"
+            },
+            {
+                "naziv": "Zmajevac Vranac",
+                "kolicina": "0.75",
+                "cena": "4850"
+            },
+            {
+                "naziv": "Vino Budimir i kao da si andjeo",
+                "kolicina": "0.75",
+                "cena": "1900"
+            },
+            {
+                "naziv": "Vino Budimir i kao da si andjeo",
+                "kolicina": "0.15",
+                "cena": "320"
+            },
+            {
+                "naziv": "Paraf",
+                "kolicina": "0.75",
+                "cena": "4090"
+            },
+            {
+                "naziv": "Lastar Pinot Noir",
+                "kolicina": "0.75",
+                "cena": "2890"
+            },
+            {
+                "naziv": "Lastar Pinot Noir",
+                "kolicina": "0.15",
+                "cena": "580"
+            }
+        ],
+        "Crveno Italija":[
+            {
+                "naziv": "Vino kuće",
+                "kolicina": "0.5",
+                "cena": "740"
+            },
+            {
+                "naziv": "Vino kuće",
+                "kolicina": "0.15",
+                "cena": "280"
+            },
+            {
+                "naziv": "Bennati Corte Pitora Valpolicella, Chianti Riserva, Familia",
+                "kolicina": "0.75",
+                "cena": "3550"
+            },
+            {
+                "naziv": "Cecchi Toscana, D.O.C.G, Domaine de Tholomies Cabernet",
+                "kolicina": "0.75",
+                "cena": "3550"
+            },
+            {
+                "naziv": "BIO Sauvignon-Merlot, La Chapelle",
+                "kolicina": "0.75",
+                "cena": "2590"
+            },
+            {
+                "naziv": "BIO Sauvignon-Merlot, La Chapelle",
+                "kolicina": "0.15",
+                "cena": "435"
+            }
+        ],
+        "Crveno Španija":[
+            {
+                "naziv": "Sangre de toro, Torres, Original, Penedes",
+                "kolicina": "0.75",
+                "cena": "1920"
+            },
+            {
+                "naziv": "Sangre de toro, Torres, Original, Penedes",
+                "kolicina": "0.15",
+                "cena": "350"
+            }
+        ],
+        "Rose Srbija":[
+            {
+                "naziv": "Lastar Rose, Levac",
+                "kolicina": "0.75",
+                "cena": "1990"
+            },
+            {
+                "naziv": "Lastar Rose, Levac",
+                "kolicina": "0.15",
+                "cena": "420"
+            },
+            {
+                "naziv": "Zmajevac Rose",
+                "kolicina": "0.75",
+                "cena": "1990"
+            },
+            {
+                "naziv": "Zmajevac Rose",
+                "kolicina": "0.15",
+                "cena": "420"
+            },
+            {
+                "naziv": "Tri Morave Temet",
+                "kolicina": "0.75",
+                "cena": "1990"
+            }
+        ],
+        "Rose Italija":[
+            {
+                "naziv": "Cipresseto Santa Cristina",
+                "kolicina": "0.75",
+                "cena": "2100"
+            }
+        ],
+        "Rose Francuska":[
+            {
+                "naziv": "Rose d' Anjau La Cheteau",
+                "kolicina": "0.75",
+                "cena": "1890"
+            },
+            {
+                "naziv": "Rose d' Anjau La Cheteau",
+                "kolicina": "0.15",
+                "cena": "315"
+            }
+        ],
+        "Penušava":[
+            {
+                "naziv": "Cuvee Rose Laurent Perrier",
+                "kolicina": "0.75",
+                "cena": "9390"
+            }
+        ]
+    }]
+}

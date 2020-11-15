@@ -1,0 +1,1072 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+.active {
+  display: block;
+}
+header {
+  width: 100%;
+  height: 100%;
+  z-index: 440;
+}
+#home {
+  z-index: 10;
+  background-color: black;
+  height: calc(100vh - 118px);
+  position: relative;
+}
+
+#myVideo {
+  position: absolute;
+  filter: opacity(0.5);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.mySlides50 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.pictures-slide50 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.logoHome {
+  border: 1px solid black;
+  height: 4.4rem;
+  width: 12vw;
+}
+.wraper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 10%;
+  top: 60%;
+  align-items: center;
+}
+.headerText {
+  font-family: "Dancing Script", cursive;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.headerText h1 {
+  color: red;
+  font-size: 3.5rem;
+  margin: 0;
+  text-align: center;
+}
+.headerText h2 {
+  color: red;
+  text-align: center;
+  font-size: 2rem;
+  text-align: center;
+}
+.divButton {
+  margin-top: -2rem;
+  padding: 1rem;
+}
+.btnNaruciHeader {
+  border: none;
+  width: 20vw;
+  height: 6vh;
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(247, 9, 9, 0.959);
+  border-radius: 0.5rem;
+}
+.fa-shopping-basket {
+  position: absolute;
+}
+.nav1 {
+  min-height: 46px;
+  width: 100%;
+  background-color: rgba(13, 13, 14, 1);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.nav1Icons {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 100;
+  padding: 1rem;
+}
+.nav1Div1 {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.nav1Div2 {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  flex-wrap: nowrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.wrap-navs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(251, 252, 253, 0.7);
+  z-index: 200;
+  height: 70px;
+  border-bottom: 1px solid;
+}
+.txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: red;
+  margin-right: 2rem;
+  position: relative;
+}
+.nav-link {
+  cursor: pointer;
+}
+.txt::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -15px;
+  z-index: 200;
+  background: red;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.txt:hover:after,
+.txt:focus:after,
+.txt:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+.centarNaslov {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+.span-linija {
+  border-bottom: 2px solid red;
+}
+.span-linija1 {
+  font-size: 2rem;
+  border-bottom: 2px solid red;
+}
+.donesi {
+  width: 15vw;
+  height: 8rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.donesi:hover {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: transform 1.2s;
+  border-bottom: 2px solid red;
+}
+
+.wrap-naruci {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  height: auto;
+  background-color: black;
+  position: relative;
+}
+footer a {
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+footer h3 {
+  color: red;
+}
+.inrow {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border-right: 1px solid red;
+  /* padding-right: 1rem; */
+  width: 15%;
+}
+.inrow1 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border-right: 1px solid red;
+}
+.inrow1 h3 {
+  text-align: center;
+}
+.dete {
+  text-align: center;
+}
+#gallery {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  row-gap: 0.5rem;
+}
+
+.img-galery {
+  width: 96%;
+  height: 100%;
+}
+.img-galery:hover {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: transform 1.2s;
+}
+.fotIcon {
+  font-size: 2rem;
+}
+/* .inrow h3{
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+.marginLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 35%;
+}
+.kon {
+  padding-bottom: 10px;
+}
+.divKontakt {
+  padding-top: 2rem;
+  height: 20vh;
+}
+.aDiv {
+  color: rgb(59, 59, 59);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.aDiv1 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 50;
+}
+.aDiv:hover {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: transform 1.2s;
+  border-bottom: 2px solid red;
+}
+#kartapica {
+  min-height: 73vh !important;
+}
+.slideshow-container {
+  position: relative;
+  height: 35rem;
+  width: 100%;
+  margin-top: 20px;
+}
+.slideshow-container img {
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrap-o-nama {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* transform: translate(-50%, -50%); */
+}
+.divSaSlikama {
+  position: relative;
+  flex-grow: 1;
+  width: 500px;
+  height: 85vh;
+}
+
+.headerostale {
+  position: relative;
+  height: 7rem;
+}
+#onama {
+  min-height: 90vh !important;
+}
+.textOnama {
+  width: 500px;
+  flex-grow: 1;
+  max-height: 100%;
+}
+.slider__list {
+  margin: 0;
+  padding: 0;
+}
+.po {
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 2.2em;
+  padding: 50px;
+}
+.centarNaslov1 {
+  text-align: center;
+}
+.divVino {
+  min-width: 50% !important;
+  background-image: url(img/vina2.jpg);
+  background-size: (auto);
+  background-repeat: no-repeat;
+  order: 2;
+  height: auto;
+}
+
+.span5 {
+  border-bottom: 1px dashed red;
+}
+.span5:hover {
+  cursor: pointer;
+  background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50%
+    repeat-x;
+}
+.crni {
+  width: 100%;
+  height: 30%;
+}
+.divCrni {
+  width: 20%;
+  height: 10%;
+  border-right: 1px solid red;
+}
+.wrapper {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+  margin-left: 0.71rem;
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  height: 1.5rem;
+  border: 1px solid;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-image: linear-gradient(to right, transparent, gray, transparent) 1;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  display: flex;
+  flex-direction: column;
+}
+.accordion-item-body-content {
+  cursor: pointer;
+  padding: 1rem;
+  line-height: 1rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, red, transparent) 1;
+}
+.burger {
+  display: none;
+}
+.nav1Img {
+  display: none;
+}
+.footerostali {
+  margin-top: 10rem;
+}
+.modal-background {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 500vh;
+  background: rgba(105, 105, 105, 1);
+}
+.iskacuci {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: 800;
+  width: 70%;
+  height: 80%;
+  background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50%
+    repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.divslikaiskacuci {
+  margin-top: 20px;
+  height: 60%;
+  width: 70%;
+}
+.divslikaiskacuci img {
+  width: 100%;
+  height: 100%;
+}
+.text-iskacuci h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.iskacuci h2 {
+  margin-top: 30px;
+}
+.iskacuci button {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid red;
+}
+#kontakt {
+  background-color: white;
+}
+iframe {
+  height: 400px;
+}
+.goog-te-banner-frame,
+#goog-gt-tt {
+  display: none !important;
+}
+
+.goog-te-combo {
+  height: 30px;
+  width: 180px;
+  border-radius: 8px;
+  border: none;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+.dete1 {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+#gallery {
+  min-height: 100vh;
+  margin-bottom: 30px;
+}
+.img-galery {
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .izbrisi {
+    display: none;
+  }
+  .inrow {
+    width: 22%;
+  }
+  #home {
+    height: calc(105vh - 69px);
+  }
+  .inrow1 {
+    width: 60%;
+  }
+  nav {
+    display: none;
+    height: auto;
+  }
+  .wrap-navs {
+    position: absolute;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    background-color: white;
+  }
+  .iskacuci button {
+    width: 100px;
+  }
+  .nav-link {
+    height: 1.8rem;
+  }
+  .txt {
+    font-size: 1rem;
+  }
+  .txt::after {
+    bottom: -5px;
+  }
+  .logoHome {
+    display: none;
+  }
+
+  .nav1Div2 {
+    display: none;
+  }
+  .nav1Div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .goog-te-combo {
+    width: 113px !important;
+    border-radius: 8px;
+    border: none;
+  }
+  .burger {
+    display: block;
+  }
+  .nav1Icons {
+    font-size: 1.4rem;
+  }
+  .wraper {
+    top: 65%;
+    min-width: 30%;
+    height: 20%;
+    right: 5%;
+  }
+  .headerText h1,
+  .headerText h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .headerText {
+    height: 100%;
+    width: 90%;
+  }
+  .btnNaruciHeader {
+    width: 180px;
+    font-size: 0.8rem;
+    height: 30px;
+  }
+  footer {
+    padding: 0;
+    height: 170px;
+  }
+  footer a {
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .kon {
+    width: 100%;
+    text-align: center;
+    top: -20px;
+  }
+  .spancentar {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .dete {
+    padding-top: 25px;
+  }
+  .marginLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+  }
+  .fotIcon {
+    font-size: 1.4rem;
+    padding: 2px;
+  }
+  .divCrni {
+    display: none;
+  }
+  .nav1Img {
+    display: block;
+    width: 4rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+  }
+  .headerostale {
+    height: 2rem;
+  }
+  .centarNaslov {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .centarNaslov1 {
+    margin-bottom: 0;
+  }
+  .span-linija1 {
+    font-size: 1.2rem;
+  }
+  .span-linija {
+    font-size: 1.2rem;
+  }
+  .po {
+    padding: 3%;
+    line-height: normal;
+    font-size: 1rem;
+  }
+
+  .wrap-o-nama {
+    margin-bottom: 1rem;
+    min-height: 0;
+  }
+  .slideshow-container {
+    height: 15rem;
+  }
+  .wrapVina {
+    flex-direction: column;
+  }
+  #gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .donesi {
+    width: 8rem;
+    margin-top: 0;
+  }
+  .brisuci {
+    display: none;
+  }
+  .aDiv {
+    margin-top: 50px;
+    font-size: 3rem;
+  }
+  iframe {
+    height: 18rem;
+    margin-top: 3rem;
+  }
+  .dete1 {
+    padding: 3px;
+    text-align: left;
+  }
+  .prsti {
+    padding: 0;
+    margin: 0;
+  }
+  .divSaSlikama {
+    height: 30vh;
+  }
+  .iskacuci {
+    height: 60%;
+    width: 85%;
+  }
+  .iskacuci h1 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .divslikaiskacuci {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 40%;
+    width: 75%;
+  }
+  .iskacuci h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .iskacuci h3 {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .wrap-navs {
+    background-color: white;
+  }
+  nav {
+    display: none;
+  }
+  #home {
+    height: calc(100vh - 60px);
+  }
+  .nav1Div2 {
+    display: none;
+  }
+  .nav1Div1 {
+    width: 100%;
+  }
+  .burger {
+    display: block;
+  }
+  .logoHome {
+    display: none;
+  }
+  .txt {
+    font-size: 0.9rem;
+    margin-right: 0;
+  }
+  .wrap-navs {
+    position: absolute;
+  }
+  .wraper {
+    top: 50%;
+    height: 120px;
+  }
+  .headerText {
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .headerText h2,
+  .headerText h1 {
+    font-size: 1.7rem;
+  }
+  .btnNaruciHeader {
+    margin-top: 5px;
+    width: 200px;
+    font-size: 0.9rem;
+    border-radius: 2px;
+  }
+  footer {
+    padding: 0;
+    height: 160px;
+  }
+  footer a {
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .kon {
+    position: initial;
+  }
+  .spancentar {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .dete {
+    padding-top: 25px;
+  }
+  .dete1 {
+    padding-top: 7px;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .marginLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+  }
+  .fotIcon {
+    font-size: 1.4rem;
+    padding: 2px;
+  }
+  .divCrni {
+    height: 50px;
+    width: 20%;
+  }
+  .crni {
+    height: 50px;
+  }
+  .inrow {
+    width: 20%;
+    padding-left: 15px;
+  }
+  .inrow1 {
+    width: 40%;
+  }
+  .divSaSlikama {
+    height: 250px;
+  }
+  .centarNaslov {
+    padding-top: 5px;
+    margin-bottom: 7px;
+  }
+  .span-linija1 {
+    font-size: 1.3rem;
+  }
+  .po {
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+  .slideshow-container {
+    height: 250px;
+  }
+  .divKontakt {
+    padding-top: 0;
+    height: 30vh;
+  }
+  iframe {
+    height: 250px;
+  }
+  .iskacuci {
+    width: 90%;
+  }
+  .iskacuci h1 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .iskacuci h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  .iskacuci h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .iskacuci img {
+    margin: 0;
+  }
+  .divslikaiskacuci {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .iskacuci button {
+    width: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  nav {
+    display: none;
+  }
+  #home {
+    height: calc(105vh - 70px);
+  }
+  .nav1Div2 {
+    display: none;
+  }
+  .nav1Div1 {
+    width: 100%;
+  }
+  .telNav {
+    display: none;
+  }
+  .txt {
+    margin-right: 0;
+    font-size: 1.1rem;
+  }
+  .divCrni {
+    padding-right: 5px;
+  }
+  .inrow {
+    padding-right: 5px;
+  }
+  .burger {
+    display: block;
+  }
+  .fa-clock {
+    display: none;
+  }
+  .wraper {
+    top: 40%;
+    right: 10px;
+    height: 59px;
+    width: 400px;
+  }
+  .headerText {
+    margin-bottom: 25px;
+    height: auto;
+  }
+  .headerText h2,
+  .headerText h1 {
+    font-size: 2rem;
+  }
+  .btnNaruciHeader {
+    width: 200px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+  .divSaSlikama {
+    height: 350px;
+  }
+  .centarNaslov {
+    padding-top: 25px;
+    margin-bottom: 30px;
+  }
+  .centarNaslov1 {
+    margin-top: 10px;
+  }
+  .span-linija1 {
+    font-size: 1.3rem;
+  }
+  .po {
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+  .slideshow-container {
+    height: 350px;
+  }
+  .divKontakt {
+    padding-top: 0;
+    height: 40vh;
+  }
+  iframe {
+    height: 250px;
+  }
+  footer {
+    padding: 0;
+  }
+  .marginLeft {
+    flex-direction: column;
+  }
+  .inrow {
+    width: 25%;
+  }
+  .dete1 {
+    text-align: center;
+  }
+  .inrow1 {
+    width: 50%;
+  }
+  .iskacuci {
+    height: 83vh;
+    width: 90%;
+  }
+  .iskacuci button {
+    width: 120px;
+  }
+  .iskacuci h1 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .iskacuci h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  .iskacuci h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .iskacuci img {
+    margin: 0;
+  }
+  .divslikaiskacuci {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+  }
+  .wrap-navs {
+    position: absolute;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1400px) {
+  .nav1Div2 {
+    font-size: 1rem;
+  }
+  .txt {
+    margin-right: 0;
+    font-size: 1.2rem;
+  }
+  .wraper {
+    top: 55%;
+    right: 5%;
+    height: 160px;
+  }
+  .headerText {
+    height: 150px;
+    margin-bottom: 0;
+  }
+  .divButton {
+    margin-top: 1rem;
+  }
+  .po {
+    padding-top: 5%;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    padding-bottom: 0;
+  }
+  .centarNaslov1 {
+    margin-top: 0;
+  }
+  .slideshow-container {
+    height: 28rem;
+  }
+
+  #naruci h1 {
+    margin: 0;
+  }
+  .wrap-naruci {
+    height: 8rem;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  .donesi {
+    height: 6rem;
+    margin: 0;
+  }
+  .divKontakt {
+    padding-top: 0;
+    margin-top: -3rem;
+  }
+  .aDiv {
+    margin-top: -2.5rem;
+  }
+  iframe {
+    margin-top: 3rem;
+    height: 300px;
+  }
+  .nav1Img {
+    display: none;
+  }
+  .inrow1 {
+    width: 40%;
+  }
+  footer {
+    padding: 0;
+  }
+}
